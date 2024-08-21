@@ -1,0 +1,39 @@
+.centralizado-colorido{
+    text-align: center;
+    color: rgb(204, 124, 50);
+    text-decoration:underline ;
+}
+
+body{
+    background-color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* AULA */
+
+/* .float .right{
+    float: right;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.float .left{
+    float: left;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+} */
+
+.float:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+}
